@@ -1,4 +1,4 @@
-
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
     return (
@@ -12,13 +12,31 @@ const Home = () => {
                     <div className="content hero">
                         <div className="inner_content">
                             <div className="image_wrap">
-                                <img src="img/hero/img.jpg" alt="hero" />
+                                <img src="img/hero/avatar.jpg" alt="hero" />
                             </div>
                             <div className="name_holder">
-                                <h3>Alan <span>Michaelis</span></h3>
+                                <h3>Hai <span>Tran</span></h3>
                             </div>
                             <div className="text_typing">
-                                <p>I'm a <span className="arlo_tm_animation_text_word"></span></p>
+                                <p>I'm a
+                                    &nbsp;
+                                    <TypeAnimation
+                                        sequence={[
+                                            // Same substring at the start will only be typed once, initially
+                                            'Former Computer Science Student',
+                                            2000,
+                                            'Web Developer',
+                                            2000,
+                                            'Problem Solver',
+                                            2000,
+
+                                        ]}
+                                        wrapper="span"
+                                        speed={50}
+                                        style={{ fontSize: '1em' }}
+                                        repeat={Infinity}
+                                    />
+                                </p>
                             </div>
                         </div>
                     </div>
