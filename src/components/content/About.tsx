@@ -44,7 +44,7 @@ const About = () => {
                                             ]}
                                             wrapper="span"
                                             speed={50}
-                                            style={{ fontSize: '1em' }}
+                                            style={{ fontSize: '1em', color: "blue" }}
                                             repeat={Infinity}
                                         />
                                     </h4>
