@@ -1,5 +1,6 @@
 import developerImage from "./../../assets/img/about/developer.png"
 import Resume from "./../../assets/Hai Tran-Resume.pdf"
+import { TypeAnimation } from 'react-type-animation';
 
 
 const About = () => {
@@ -28,43 +29,50 @@ const About = () => {
                             </div>
                             <div className="rightbox">
                                 <div className="arlo_tm_mini_title_holder">
-                                    <h4>I'm Alan Michaelis and <span className="arlo_tm_animation_text_word"></span></h4>
+                                    <h4>I'm Hai Tran and
+                                        &nbsp;
+                                        <TypeAnimation
+                                            sequence={[
+                                                // Same substring at the start will only be typed once, initially
+                                                'Former Computer Science Student',
+                                                2000,
+                                                'Web Developer',
+                                                2000,
+                                                'Problem Solver',
+                                                2000,
+
+                                            ]}
+                                            wrapper="span"
+                                            speed={50}
+                                            style={{ fontSize: '1em' }}
+                                            repeat={Infinity}
+                                        />
+                                    </h4>
                                 </div>
                                 <div className="definition">
-                                    <p>Hi! My name is <strong>Alan Michaelis</strong>. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                    <p>Hi! My name is <strong>Hai Tran</strong>. I am a Highly adaptable, goal-driven problem solver loving web development and seeking to build programs that make people’s lives easier.</p>
                                 </div>
                                 <div className="about_short_contact_wrap">
                                     <ul>
                                         <li>
-                                            <span><label>Birthday:</label> 01.07.1990</span>
+                                            <span><label>Birthday:</label> 24.02.2001</span>
                                         </li>
                                         <li>
-                                            <span><label>Age:</label> 28</span>
+                                            <span><label>City:</label>Brampton, Ontario</span>
                                         </li>
                                         <li>
-                                            <span><label>City:</label> New York, USA</span>
+                                            <span><label>Study:</label> Algoma University</span>
                                         </li>
                                         <li>
-                                            <span><label>Interests:</label> Soccer, UFC</span>
+                                            <span><label>Degree:</label> Bachelor of Computer Science</span>
                                         </li>
                                         <li>
-                                            <span><label>Study:</label> Chicago University</span>
+                                            <span><label>Linkedin:</label> <a href="https://www.linkedin.com/in/hai01/">https://www.linkedin.com/in/hai01/</a></span>
                                         </li>
                                         <li>
-                                            <span><label>Degree:</label> Master</span>
+                                            <span><label>Email:</label> <a href="">haitran022001&#64;gmail.com</a></span>
                                         </li>
-                                        <li>
-                                            <span><label>Website:</label> <a href="#">www.mywebsite.com</a></span>
-                                        </li>
-                                        <li>
-                                            <span><label>Mail:</label> <a href="mailto:example@gmail.com">mymail&#64;gmail.com</a></span>
-                                        </li>
-                                        <li>
-                                            <span><label>Phone:</label> <a href="#">+77 022 177 05 05</a></span>
-                                        </li>
-                                        <li>
-                                            <span><label>Twitter:</label> <a href="#">&#64;myusername</a></span>
-                                        </li>
+
                                     </ul>
                                 </div>
                                 <div className="buttons_wrap">
