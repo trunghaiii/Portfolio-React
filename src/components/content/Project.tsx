@@ -14,7 +14,7 @@ const Project = () => {
                             <li>
                                 <div className="inner">
                                     <div className="icon">
-                                        <img className="svg" src="img/svg/camera-diaphragm.svg" alt="camera-diaphragm" />
+                                        <img className="svg" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
                                         <h3>Photography</h3>
