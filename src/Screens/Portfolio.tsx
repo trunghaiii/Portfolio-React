@@ -1,3 +1,4 @@
+import { useState } from "react"
 import LeftPart from "../components/LeftPart"
 import Preloader from "../components/Preloader"
 import RightPart from "../components/RightPart"
@@ -6,6 +7,8 @@ import Menu from "../components/mobile/Menu"
 
 
 const Portfolio = () => {
+
+    const [showLeftPart, setShowLeftPart] = useState<boolean>(true)
     return (
         <div className="arlo_tm_wrapper_all">
 
@@ -28,11 +31,17 @@ const Portfolio = () => {
             <div className="arlo_tm_content">
 
                 {/* <!-- LEFTPART --> */}
-                <LeftPart />
+                <LeftPart
+                    showLeftPart={showLeftPart}
+                    setShowLeftPart={setShowLeftPart}
+                />
                 {/* <!-- /LEFTPART --> */}
 
                 {/* <!-- RIGHTPART --> */}
-                <RightPart />
+                <RightPart
+                    showLeftPart={showLeftPart}
+                    setShowLeftPart={setShowLeftPart}
+                />
                 {/* <!-- /RIGHTPART --> */}
 
                 {/* <a className="arlo_tm_totop" href="#"></a> */}

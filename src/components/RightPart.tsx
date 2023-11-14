@@ -3,10 +3,13 @@ import Home from "./content/Home"
 import Project from "./content/Project"
 import Skill from "./content/Skill"
 
-
-const RightPart = () => {
+interface IProps {
+    showLeftPart: boolean
+    setShowLeftPart: (value: boolean) => void
+}
+const RightPart = (props: IProps) => {
     return (
-        <div className="arlo_tm_rightpart">
+        <div className={props.showLeftPart === true ? "arlo_tm_rightpart" : "arlo_tm_rightpart opened"}>
             <div className="rightpart_inner">
                 <Home />
 
