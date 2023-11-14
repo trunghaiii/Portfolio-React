@@ -26,8 +26,8 @@ const Project = () => {
                                         <p>Web design is a similar process of creation, with the intention ofWeb design is a similar process of creation, with the intention ofWeb design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                                     </div>
                                     <div className="button">
-                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
-                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
@@ -46,8 +46,8 @@ const Project = () => {
                                         <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                                     </div>
                                     <div className="button">
-                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
-                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
@@ -66,8 +66,8 @@ const Project = () => {
                                         <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                                     </div>
                                     <div className="button">
-                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
-                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
@@ -86,8 +86,8 @@ const Project = () => {
                                         <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                                     </div>
                                     <div className="button">
-                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
-                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
