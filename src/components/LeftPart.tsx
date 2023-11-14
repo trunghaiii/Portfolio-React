@@ -15,17 +15,6 @@ const LeftPart = () => {
                         <li><a href="#services">Projects</a></li>
                     </ul>
                 </div>
-                <div className="leftpart_bottom">
-                    <div className="social_wrap">
-                        <ul>
-                            <li><a href="#"><i className="xcon-facebook"></i></a></li>
-                            <li><a href="#"><i className="xcon-twitter"></i></a></li>
-                            <li><a href="#"><i className="xcon-linkedin"></i></a></li>
-                            <li><a href="#"><i className="xcon-instagram"></i></a></li>
-                            <li><a href="#"><i className="xcon-behance"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
                 <a className="arlo_tm_resize" href="#"><i className="xcon-angle-left"></i></a>
             </div>
         </div>
