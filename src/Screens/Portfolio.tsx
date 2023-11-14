@@ -35,7 +35,7 @@ const Portfolio = () => {
                 <RightPart />
                 {/* <!-- /RIGHTPART --> */}
 
-                <a className="arlo_tm_totop" href="#"></a>
+                {/* <a className="arlo_tm_totop" href="#"></a> */}
 
             </div>
         </div>
