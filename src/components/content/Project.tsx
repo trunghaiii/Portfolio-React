@@ -14,7 +14,30 @@ const Project = () => {
                             <li>
                                 <div className="inner">
                                     <div className="icon">
-                                        <img className="svg" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="camera-diaphragm" />
+                                        <img
+                                            width={"100%"}
+                                            className="svg"
+                                            src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="camera-diaphragm" />
+                                    </div>
+                                    <div className="title_service">
+                                        <h3>QuizApp-Front-End</h3>
+                                    </div>
+                                    <div className="text">
+                                        <p>Web design is a similar process of creation, with the intention ofWeb design is a similar process of creation, with the intention ofWeb design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                    </div>
+                                    <div className="button">
+                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
+                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img
+                                            width={"100%"}
+                                            className="svg"
+                                            src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
                                         <h3>Photography</h3>
@@ -22,73 +45,53 @@ const Project = () => {
                                     <div className="text">
                                         <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="inner">
-                                    <div className="icon">
-                                        <img className="svg" src="img/svg/new-tab.svg" alt="new-tab" />
-                                    </div>
-                                    <div className="title_service">
-                                        <h3>Web Design</h3>
-                                    </div>
-                                    <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                    <div className="button">
+                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
+                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className="inner">
                                     <div className="icon">
-                                        <img className="svg" src="img/svg/layers.svg" alt="layers" />
+                                        <img
+                                            width={"100%"}
+                                            className="svg"
+                                            src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
-                                        <h3>Branding</h3>
+                                        <h3>QuizApp-Front-End</h3>
                                     </div>
                                     <div className="text">
                                         <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                    </div>
+                                    <div className="button">
+                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
+                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className="inner">
                                     <div className="icon">
-                                        <img className="svg" src="img/svg/share.svg" alt="share" />
+                                        <img
+                                            width={"100%"}
+                                            className="svg"
+                                            src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
-                                        <h3>Social Media</h3>
+                                        <h3>Photography</h3>
                                     </div>
                                     <div className="text">
                                         <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="inner">
-                                    <div className="icon">
-                                        <img className="svg" src="img/svg/adobe-illustrator.svg" alt="adobe-illustrator" />
-                                    </div>
-                                    <div className="title_service">
-                                        <h3>Illustrator</h3>
-                                    </div>
-                                    <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                    <div className="button">
+                                        <button style={{ backgroundColor: "blue", color: "white" }}>source code</button>
+                                        <button style={{ backgroundColor: "red", color: "white" }}>demo watch</button>
                                     </div>
                                 </div>
                             </li>
-                            <li>
-                                <div className="inner">
-                                    <div className="icon">
-                                        <img className="svg" src="img/svg/seo-performance-marketing-graphic.svg" alt="seo-performance-marketing-graphic" />
-                                    </div>
-                                    <div className="title_service">
-                                        <h3>Marketing</h3>
-                                    </div>
-                                    <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-                                    </div>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
