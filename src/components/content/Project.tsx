@@ -1,4 +1,5 @@
 
+import quizAppImg from "./../../assets/img/projects/quizApp.jpeg"
 
 const Project = () => {
     return (
@@ -17,17 +18,17 @@ const Project = () => {
                                         <img
                                             width={"100%"}
                                             className="svg"
-                                            src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="camera-diaphragm" />
+                                            src={quizAppImg} alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
                                         <h3>QuizApp-Front-End</h3>
                                     </div>
                                     <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention ofWeb design is a similar process of creation, with the intention ofWeb design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                        <p>Front End of the full stack QuizApp was developed by using React Js Framework with Javascript, UI was designed by Bootstrap/React-bootstrap, and Scss. Deployed on Heroku!</p>
                                     </div>
                                     <div className="button">
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
+                                        <a href="https://github.com/trunghaiii/QuizApp-Front-End"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://quizapp242-cf395539f6a6.herokuapp.com/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
@@ -37,17 +38,17 @@ const Project = () => {
                                         <img
                                             width={"100%"}
                                             className="svg"
-                                            src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" alt="camera-diaphragm" />
+                                            src={quizAppImg} alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
-                                        <h3>Photography</h3>
+                                        <h3>QuizApp-Backend</h3>
                                     </div>
                                     <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                        <p>Back End of the full stack QuizApp was developed by using Express Js(Node js platform) Framework with JavaScript. Manage database with PostgreSQL and query database via Knex library. Deployed on Heroku!</p>
                                     </div>
                                     <div className="button">
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
+                                        <a href="https://github.com/trunghaiii/QuizApp-Backend-API"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://quizapp242-cf395539f6a6.herokuapp.com/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
