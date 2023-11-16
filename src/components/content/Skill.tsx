@@ -4,6 +4,10 @@
 const Skill = () => {
     return (
         <div className="arlo_tm_section" id="skills">
+            <div className="arlo_tm_title_holder">
+                <h3>Technical Skills</h3>
+                <span>Skills set that I know</span>
+            </div>
             <div className="arlo_tm_skills_wrap">
                 <div className="container">
                     <div className="inner_wrap">
