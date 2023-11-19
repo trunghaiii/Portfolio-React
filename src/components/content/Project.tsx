@@ -1,5 +1,6 @@
 
 import quizAppImg from "./../../assets/img/projects/quizApp.jpeg"
+import bookStoreImg from "./../../assets/img/projects/bookstore.jpeg"
 
 const Project = () => {
     return (
@@ -58,17 +59,17 @@ const Project = () => {
                                         <img
                                             width={"100%"}
                                             className="svg"
-                                            src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="camera-diaphragm" />
+                                            src={bookStoreImg} alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
-                                        <h3>QuizApp-Front-End</h3>
+                                        <h3>BookStoreApp-Front-End</h3>
                                     </div>
                                     <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                        <p>Front End of the full stack e-commerce BookStore App was developed by using React Js Framework with TypeScript, UI was designed by using Ant Design library and Scss. Deployed on Vercel with real domain name!</p>
                                     </div>
                                     <div className="button">
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
+                                        <a href="https://github.com/trunghaiii/BookStoreApp-Front-End"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://hai.bookstorenow.store/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
@@ -78,17 +79,17 @@ const Project = () => {
                                         <img
                                             width={"100%"}
                                             className="svg"
-                                            src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" alt="camera-diaphragm" />
+                                            src={bookStoreImg} alt="camera-diaphragm" />
                                     </div>
                                     <div className="title_service">
-                                        <h3>Photography</h3>
+                                        <h3>BookStoreApp-Backend</h3>
                                     </div>
                                     <div className="text">
-                                        <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
+                                        <p>Back End of the full stack e-commerce BookStore App was developed by using Express Js(Node js platform) Framework with TypeScript. Manage database with MongoDB and query database via Mongoose library. Deployed on Heroku!</p>
                                     </div>
                                     <div className="button">
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
-                                        <a href="https://www.linkedin.com/in/hai01/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
+                                        <a href="https://github.com/trunghaiii/BookStoreApp-Backend_Api"><button style={{ backgroundColor: "blue", color: "white", width: "100%" }}>source code</button></a>
+                                        <a href="https://hai.bookstorenow.store/"><button style={{ backgroundColor: "red", color: "white", width: "100%" }}>demo watch</button></a>
                                     </div>
                                 </div>
                             </li>
