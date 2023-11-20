@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import Portfolio from './Screens/Portfolio'
 import "./styles/plugins.scss"
 import "./styles/style.scss"
@@ -7,7 +7,7 @@ import "./styles/style.scss"
 // import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <Portfolio />
